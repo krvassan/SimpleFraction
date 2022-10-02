@@ -40,9 +40,11 @@ Validez les changements (cf. [Enregistrer des modifications dans le dépôt](htt
 1. Ajoutez la méthode `toString` à la classe `Fraction` (cf. [`Object.toString`](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html#toString())) qui retournera la chaîne `"Je suis une fraction."` et modifiez la classe `Main` en conséquence;
 Validez les changements;
     ```Java
-    // public String toString() {
-        return "Je suis une fraction.";
-    }
+    // Dans le main //
+    //Fraction f = new Fraction();
+   //assert "Je suis une fraction.".equals(f.toString());
+    //Ne pas oubliez d'ajouter -ea dans le VM options de votre IDE !!!
+    //Pour IntelliJ : run/debug configuration / Modify options/ VM options
     ```
 1. Publiez vos modifications sur le dépôt distant (cf. [Travailler avec des dépôts distants](https://git-scm.com/book/fr/v2/Les-bases-de-Git-Travailler-avec-des-d%C3%A9p%C3%B4ts-distants));
 Vous utiliserez le protocole `https` pour cela;
