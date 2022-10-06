@@ -143,11 +143,15 @@ Vous respecterez les consignes ci-dessous :
     ```
 1. Ajoutez une méthode de consultation de la valeur sous la forme d'un nombre en virgule flottante (méthode `doubleValue()`) (cf. [`java.lang.Number`](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Number.html)),
    ```Java
-    // Assertions pour tester la conversion
+    // Fraction f1 = new Fraction(1,2);
+   // assert "0.5".equals(String.valueOf(f1.doubleValue()));
     ```
 1. Ajoutez une méthode permettant l'addition de deux fractions (la méthode `add` prend en paramètre *une* fraction et *retourne* la somme de la fraction courante et du paramètre),
    ```Java
-    // Assertions pour tester l'addition
+    // Fraction f1 = new Fraction(1,2);
+   //  Fraction f4 = new Fraction(5,2);
+   //  Fraction f6 = (f1.addition(f4));
+   //  assert "3.0".equals(String.valueOf(f6.doubleValue()));
     ```
 1. Ajoutez le test d'égalité entre fractions (deux fractions sont égales si elles représentent la même fraction réduite) (cf. [`java.lang.Object.equals`](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object))),
    ```Java
