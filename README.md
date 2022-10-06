@@ -52,8 +52,9 @@ Vérifiez avec le navigateur;
     ```bash
     # git add .
     # git commit -m "commit toString"
+    # git branch -M main
     # git remote add origin https://github.com/krvassan/SimpleFraction.git
-    # git push -u origin master
+    # git push -u origin main
     ```
 1. Sur la forge, ajoutez un fichier de documentation `README.md`.
 Quelle syntaxe est utilisée pour ce fichier ?
@@ -118,7 +119,12 @@ Vous respecterez les consignes ci-dessous :
     * initialisation avec juste le numérateur (dénominateur égal à _1_),
     * initialisation sans argument (numérateur égal _0_ et dénominateur égal à _1_),
     ```Java
-    // Assertions pour tester les constructeurs (avec toString)
+    /*  Fraction f1 = new Fraction(1,2);
+        assert (f1.numerateur == 1 && f1.denominateur == 2) ;
+        Fraction f2 = new Fraction(1);
+        assert (f2.numerateur == 1 && f2.denominateur == 1);
+        Fraction f3 = new Fraction();
+        assert (f3.numerateur == 0 && f3.denominateur == 1);
     ```
 1. Ajoutez les fractions constantes ZERO (0, 1) et UN (1, 1) (cf. [Constants in Java](https://www.baeldung.com/java-constants-good-practices)),
     ```Java
@@ -127,11 +133,11 @@ Vous respecterez les consignes ci-dessous :
     ```
 1. Ajoutez une méthode de consultation du numérateur et du dénominateur (par convention, en Java, une méthode retournant la valeur de l'attribut `anAttribute` est nommée `getAnAttribute`),
     ```Java
-    //  public int getNumerateur () {
+    /*  public int getNumerateur () {
         return this.numerateur;
     }
 
-    public int getDenominateur () {
+        public int getDenominateur () {
         return this.denominateur;
     }
     ```
