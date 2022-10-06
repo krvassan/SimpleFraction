@@ -155,11 +155,20 @@ Vous respecterez les consignes ci-dessous :
     ```
 1. Ajoutez le test d'égalité entre fractions (deux fractions sont égales si elles représentent la même fraction réduite) (cf. [`java.lang.Object.equals`](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object))),
    ```Java
-    // Assertions pour tester l'égalité
+    /* Fraction f6 = new Fraction(1,3);
+        Fraction f7 = new Fraction(2,6);
+        if (f6.equals(f7) == true) {
+            System.out.println("Equal");
+        }
+        else {
+            System.out.println("Different");
+        }
     ```
 1. Ajoutez la comparaison de fractions selon l'ordre naturel (cf. [`java.lang.Comparable`](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Comparable.html)).
    ```Java
-    // Assertions pour tester la comparaison
+    /* Fraction f8 = new Fraction(1,3);
+        Fraction f9 = new Fraction(1,7);
+        System.out.println(f8.compareTo(f9));
     ```
 1. Faites hériter votre classe `Fraction` de la classe [`java.lang.Number`](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Number.html) et complétez les méthodes
    ```Java
