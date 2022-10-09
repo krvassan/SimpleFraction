@@ -218,13 +218,16 @@ Donnez un exemple.
         ```
 1. Expliquez en une ou deux phrases le rôle de ces commandes et dans quel contexte elles peuvent être utiles pour un développeur.
     * `ssh`
-        > Répondre ici
+        > SSH est un protocole permettant d'établir une communication chiffrée, donc sécurisée, sur un réseau informatique entre une machine locale (le client) et une machine distante (le serveur), en utilisant une paire de clés privée et publique.
+        Les usages de SSH sont entre autre :
+        Accéder à distance à la console en ligne commande (shell), ce qui permet d'effectuer la totalité des opérations courantes et/ou d'administration sur la machine distante.
+        Transferts de fichiers en ligne de commande.
     * `screen`/`tmux`
-        > Répondre ici
+        > Ce sont des multiplexeur de terminaux, ils permettent d'avoir plusieurs fenêtres dans une seule fenêtre de terminal, et de basculer entre ces derniers. C'est utile par exemple pour gérez une multitude d'écrans, d'affichages fractionnés...
     * `curl`/[HTTPie](https://httpie.org/)
-        > Répondre ici
+        > cURL est un outil en ligne de commande pour obtenir ou envoyer des données à l'aide de la syntaxe URL. On l'utilise généralement pour tester les endpoints de son API.
     * [jq](https://stedolan.github.io/jq/)
-        > Répondre ici
+        > Cette commande est utile pour manipuler du JSON dans son terminal.
 
 ### Découverte de votre *IDE*
 Dans cet exercice, vous expliquerez en quelques phrases comment vous réalisez les actions ci-dessous dans votre IDE.
@@ -232,7 +235,7 @@ Vous pouvez choisir l'IDE/éditeur de texte de votre choix.
 Pour réaliser cette exercice, vous devez bien évidemment vous reporter à la documentations de l'IDE ([IntelliJ IDEA](https://www.jetbrains.com/help/idea/discover-intellij-idea.html#developer-tools), [Visual Studio Code](https://code.visualstudio.com/docs), [Eclipse](https://help.eclipse.org/2020-09/index.jsp), …).
 
 1. Quels IDE ou éditeurs de texte utilisez-vous pour le développement Java ?
-    > Répondre ici
+    > IntelliJ IDEA
 
     Pour la suite, ne considérez que l'un de vos choix.
 1. Comment vérifier/définir que l'encodage utilisé est *UTF-8* ?
